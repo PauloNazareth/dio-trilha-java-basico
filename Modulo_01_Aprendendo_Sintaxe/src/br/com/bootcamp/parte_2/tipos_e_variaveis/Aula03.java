@@ -22,6 +22,7 @@ public class Aula03 {
 	//short numeroCurto2 = numeroNormal; //Não Comporta
 
 	
+	//Para de clarar uma constante utiliza-se a palavra final, e por convenção, o nome desta variável deverá ser escrita em caixa alta.
 	final double VALOR_PI = 3.14;
 	
 }
