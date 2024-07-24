@@ -1,4 +1,4 @@
-package br.com.bootcamp.parte_1.estrtutura_for_array;
+package br.com.bootcamp.parte_2.estrtutura_for_array;
 
 public class EstruturaForArray {
 
