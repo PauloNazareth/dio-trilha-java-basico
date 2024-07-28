@@ -1,6 +1,8 @@
 package com.bootcamp.encapsulamento;
 
-public class Carro {
+import com.bootcamp.heranca.Veiculo;
+
+public class Carro extends Veiculo {
 	public void ligar() {
 		conferirCombustivel();
 		conferirCambio();
