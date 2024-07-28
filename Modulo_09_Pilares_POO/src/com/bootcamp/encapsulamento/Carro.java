@@ -3,6 +3,8 @@ package com.bootcamp.encapsulamento;
 import com.bootcamp.heranca.Veiculo;
 
 public class Carro extends Veiculo {
+	
+	@Override
 	public void ligar() {
 		conferirCombustivel();
 		conferirCambio();

@@ -1,6 +1,6 @@
 package com.bootcamp.heranca;
 
-public class Veiculo {
+public abstract class Veiculo {
 	
 	private String chassi;
 
@@ -12,5 +12,6 @@ public class Veiculo {
 		this.chassi = chassi;
 	}
 	
+	public abstract void ligar();
 	
 }
