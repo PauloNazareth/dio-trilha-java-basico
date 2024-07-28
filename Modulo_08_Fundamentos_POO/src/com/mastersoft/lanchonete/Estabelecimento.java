@@ -5,6 +5,7 @@ import com.mastersoft.lanchonete.atendimento.Atendente;
 import com.mastersoft.lanchonete.atendimento.cozinha.Almoxarife;
 import com.mastersoft.lanchonete.atendimento.cozinha.Cozinheiro;
 
+//Exemplos de Modificadores de Visibilidade
 public class Estabelecimento {
 	public static void main(String[] args) {
 		Cozinheiro cozinheiro = new Cozinheiro();
