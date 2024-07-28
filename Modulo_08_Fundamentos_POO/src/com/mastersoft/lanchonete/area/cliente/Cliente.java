@@ -10,10 +10,11 @@ public class Cliente {
 	public void pagarConta() {
 		System.out.println("PAGANDO A CONTA");
 	}
-	public void consultarSaldoAplicativo() {
+	private void consultarSaldoAplicativo() {
 		System.out.println("CONSULTANDO SALDO NO APLICATIVO");
 	}
-	public void pegarPedidoBalcao() {
-		System.out.println("PEGANDO O PEDIDO NO BALCÃO");
-	}
+	//Tem o atendente para esta finalidade 
+//	public void pegarPedidoBalcao() {
+//		System.out.println("PEGANDO O PEDIDO NO BALCÃO");
+//	}
 }
