@@ -48,5 +48,9 @@ public class ConsumerExample {
 				System.out.println(n);
 			}
 		});
+		
+		
+		// Implementação com Predicate e Lambda
+		numeros.stream().filter(n -> n % 2 == 0).forEach(System.out::println);
 	}
 }
